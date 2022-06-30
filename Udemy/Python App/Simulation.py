@@ -17,7 +17,7 @@ pygame.display.set_caption('Python 3D rendering example')
 screen = pygame.display.set_mode((screen_width, screen_height))
 clock = pygame.time.Clock()
 cube_center = {'y': screen_height // 2, 'x': screen_width // 2}
-fps = 100000
+fps = 50
 
 # colors:
 background_color = (230, 235, 240)
